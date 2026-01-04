@@ -1,0 +1,7 @@
+dbt_demo:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /Users/peng/CursorAI_Projects/Airflow_dbt_Demo/dbt_demo/dbt_demo.duckdb
+      threads: 4

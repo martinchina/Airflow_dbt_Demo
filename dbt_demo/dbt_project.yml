@@ -1,0 +1,8 @@
+name: 'dbt_demo'
+version: '1.0'
+config-version: 2
+profile: 'dbt_demo'
+model-paths: ['models']
+models:
+  dbt_demo:
+    +materialized: view

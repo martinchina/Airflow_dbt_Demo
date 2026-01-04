@@ -1,0 +1,7 @@
+version: 2
+models:
+  - name: hello
+    description: "Simple hello model"
+    columns:
+      - name: id
+        tests: [not_null, unique]
